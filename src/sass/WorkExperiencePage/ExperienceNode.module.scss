@@ -1,0 +1,87 @@
+$darkgrey: #282828;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$grey: #a89984;
+$white: #ebdbb2;
+
+.container {
+    height: 27vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 40% 10% 43%;
+    grid-template-rows: 40% 60%;
+    grid-template-areas:
+        "positionTitle workIcon companyName"
+        "date line workDescription";
+    color: $white;
+}
+
+.position-title {
+    font-size: 4.75vh;
+    grid-area: positionTitle;
+    align-self: center;
+    text-align: right;
+    font-family: arial black;
+}
+
+.date {
+    transform: translateY(-20px);
+    font-size: 3vh;
+    grid-area: date;
+    align-self: flex-start;
+    text-align: right;
+    font-family: arial;
+}
+
+.company-name {
+    font-size: 4.75vh;
+    grid-area: companyName;
+    align-self: center;
+    text-align: left;
+    font-family: arial black;
+    width: fit-content;
+    block-size: fit-content;
+    text-decoration: underline;
+    color: $white;
+    transition: 100ms ease-in-out;
+}
+
+.company-name:hover {
+    transition: 100ms ease-in-out;
+    font-size: 5vh;
+    color: $yellow;
+    cursor: pointer;
+}
+
+.work-description {
+    font-size: 2.5vh;
+    grid-area: workDescription;
+    align-self: flex-start;
+    text-align: left;
+    font-family: arial;
+}
+
+.icon {
+    height: 12vh;
+    width: 12vh;
+    z-index: 1;
+    grid-area: workIcon;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    -webkit-user-drag: none;
+}
+
+.vertical-line {
+    border-left: 2px dashed lightgrey;
+    height: 23vh;
+    margin-top: -5vh;
+    grid-area: line;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-start;
+}

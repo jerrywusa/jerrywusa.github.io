@@ -1,0 +1,22 @@
+$darkgrey: #282828;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$grey: #a89984;
+$white: #ebdbb2;
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: $white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.background-mask-particles-container {
+    z-index: 0;
+}

@@ -1,0 +1,35 @@
+$darkgrey: #282828;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$grey: #a89984;
+$white: #ebdbb2;
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: overlay;
+    user-select: none;
+}
+
+.title-text {
+    color: $white;
+    text-align: left;
+    font-size: 13vh;
+    margin-top: 20%;
+    margin-left: 5%;
+    z-index: 2;
+}
+
+.icon-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+}

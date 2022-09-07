@@ -1,0 +1,33 @@
+$darkgrey: #282828;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$grey: #a89984;
+$white: #ebdbb2;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text {
+    margin-top: 0px;
+    margin-bottom: 2vw;
+    color: $white;
+    font-size: 7vh;
+    font-family: arial black;
+}
+
+.icon {
+    height: 30vh;
+    transition: transform 100ms ease-in-out;
+    -webkit-user-drag: none;
+}
+
+.icon:hover {
+    cursor: pointer;
+}

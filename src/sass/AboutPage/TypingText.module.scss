@@ -1,0 +1,27 @@
+$darkgrey: #282828;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$grey: #a89984;
+$white: #ebdbb2;
+
+.static-text {
+  color: $white;
+  text-align: left;
+  font-size: 13vh;
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.typing-cursor {
+  display: inline-block;
+  color: $yellow;
+}
+
+.typing-cursor::after {
+  color: $grey;
+  content: "▌";
+}

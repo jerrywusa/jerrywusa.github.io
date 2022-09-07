@@ -1,0 +1,84 @@
+$darkgrey: #282828;
+$red: #cc241d;
+$green: #98971a;
+$yellow: #d79921;
+$blue: #458588;
+$purple: #b16286;
+$aqua: #689d6a;
+$grey: #a89984;
+$white: #ebdbb2;
+
+.container {
+    width: 50%;
+    height: 50%;
+}
+
+.title-text {
+    margin-top: 22%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    font-family: "Courier New", Courier, monospace;
+    width: fit-content;
+    block-size: fit-content;
+    align-items: center;
+    user-select: none;
+    color: $white;
+}
+
+.title-text:hover {
+    font-weight: bold;
+}
+
+.description-text {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-family: "Courier New", Courier, monospace;
+    width: fit-content;
+    block-size: fit-content;
+    user-select: none;
+    color: $white;
+    opacity: 0;
+    transition: opacity 750ms;
+}
+
+.description-text:hover {
+    font-weight: bold;
+}
+
+.tile {
+    width: 50%;
+    height: 50%;
+    background-color: #282828;
+    color: white;
+    position: absolute;
+    transition: box-shadow 250ms ease-out;
+    position: fixed;
+}
+
+.tile:hover {
+    cursor: pointer;
+}
+
+.tile:hover .description-text {
+    opacity: 1;
+}
+
+#tile--top-left:hover {
+    box-shadow: inset 50vw 0 0.001px $yellow;
+    // box-shadow: inset 0 0 0 25vh $yellow;
+}
+
+#tile--top-right:hover {
+    box-shadow: inset -50vw 0 0.001px $blue;
+    // box-shadow: inset 0 0 0 25vh $blue;
+}
+#tile--bottom-left:hover {
+    box-shadow: inset 50vw 0 0 0.001px $purple;
+    // box-shadow: inset 0 0 0 25vh $purple;
+}
+#tile--bottom-right:hover {
+    box-shadow: inset -50vw 0 0 0.001px $green;
+    // box-shadow: inset 0 0 0 25vh $green;
+}
