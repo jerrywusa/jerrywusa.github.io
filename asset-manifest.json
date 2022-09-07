@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.535746f7.css",
+    "main.js": "/static/js/main.01e08023.js",
+    "static/media/chess_1.jpg": "/static/media/chess_1.2b95f1aa523190074f39.jpg",
+    "static/media/pingpong_2.jpg": "/static/media/pingpong_2.c84af6ca01cd5caf3892.jpg",
+    "static/media/pingpong_1.jpg": "/static/media/pingpong_1.f1ef4ebbc8b65f42523c.jpg",
+    "static/media/work_icon_v1.png": "/static/media/work_icon_v1.d78cab4c9d066c018d28.png",
+    "static/media/happy_star_icon_v1.png": "/static/media/happy_star_icon_v1.e7a851a72c58fe4e21cf.png",
+    "static/media/star_icon_v1.png": "/static/media/star_icon_v1.aff496e88c4c22ccc594.png",
+    "static/media/resume_icon_v4.png": "/static/media/resume_icon_v4.3dd33c4b3d064d96c18b.png",
+    "static/media/github_icon_v4.png": "/static/media/github_icon_v4.648e666260ca9d409a49.png",
+    "static/media/linkedin_icon_v4.png": "/static/media/linkedin_icon_v4.b5fb577f4b3e2a0b39a2.png",
+    "index.html": "/index.html",
+    "main.535746f7.css.map": "/static/css/main.535746f7.css.map",
+    "main.01e08023.js.map": "/static/js/main.01e08023.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.535746f7.css",
+    "static/js/main.01e08023.js"
+  ]
+}
