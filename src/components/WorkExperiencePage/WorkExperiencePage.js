@@ -19,9 +19,9 @@ function WorkExperiencePage({ bindScrollSnap, page1, page2, page3 }) {
       <WebParticles />
       <Page
         content={
-          // <Bounce right={page1.revealAnimation.right}>
+          <Bounce right={page1.revealAnimation.right}>
             <p className={style["title-text"]}>{page1.title}</p>
-          // </Bounce>
+          </Bounce>
         }
         backgroundColor={page1.backgroundColor}
       />
