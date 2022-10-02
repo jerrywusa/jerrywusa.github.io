@@ -37,13 +37,13 @@ function AboutPage({ bindScrollSnap, particles, page1, page2, page3 }) {
       <Page
         backgroundColor={page1.backgroundColor}
         content={
-          <Bounce right>
-            <TypingText
-              staticText={page1.typingText.staticText}
-              sequence={page1.typingText.sequence}
-              revealAnimation={page1.typingText.revealAnimation}
-            />
-          </Bounce>
+          // <Bounce right>
+          <TypingText
+            staticText={page1.typingText.staticText}
+            sequence={page1.typingText.sequence}
+            revealAnimation={page1.typingText.revealAnimation}
+          />
+          // </Bounce>
         }
       />
       <Page

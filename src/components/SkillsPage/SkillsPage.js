@@ -17,13 +17,13 @@ function SkillsPage({ bindScrollSnap, page1 }) {
         backgroundColor={page1.backgroundColor}
         content={
           <div className={style["skillbar-container"]}>
-            <Zoom duration={page1.revealAnimation.duration}>
-              <SkillBar
-                skills={page1.skillBar.skills}
-                animationDelay={page1.skillBar.animationDelay}
-                animationDuration={page1.skillBar.animationDuration}
-              />
-            </Zoom>
+            {/* <Zoom duration={page1.revealAnimation.duration}> */}
+            <SkillBar
+              skills={page1.skillBar.skills}
+              animationDelay={page1.skillBar.animationDelay}
+              animationDuration={page1.skillBar.animationDuration}
+            />
+            {/* </Zoom> */}
           </div>
         }
       />
