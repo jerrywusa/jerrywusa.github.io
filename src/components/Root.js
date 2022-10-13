@@ -222,7 +222,7 @@ class Root extends Component {
               uid: uid(),
               icon: happyStarIcon,
               iconAlt: "happy star icon",
-              positionTitle: "Enterprise Engineer Intern",
+              positionTitle: "Enterprise Software Engineer Intern",
               startDate: "May 2022",
               endDate: "Aug 2022",
               companyName: "Meta",

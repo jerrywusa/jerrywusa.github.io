@@ -1,0 +1,11 @@
+1. implement graphql as API ** dont know how to connect lighthouse to DB :( **
+
+2. implement Recoil as state manager
+
+3. implement Relay to communicate with backend
+
+4. prettify blog page
+
+5. add click me to tell user how animation works
+
+6. maybe remove scroll snapping ** DONE, only commented out binding, may need to remove the useEffect in the future **
